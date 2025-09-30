@@ -10,12 +10,14 @@ public class EquationIntro
 
         System.out.println("Accounting Equation: Assets = Liabilities + Equity");
         System.out.println(assets + " = " + liabilities + " + " + equity);
+
         boolean isAssetsGreater = assets > liabilities;
         boolean isLiabilitiesLess = liabilities < assets;
         boolean isEqual = equity == 60;
         boolean isAssetsGreaterOrEqual = assets >= 100;
         boolean isLiabilitiesLessOrEqual = liabilities <= 40;
         boolean isNotEqual = equity != 50;
+
         System.out.println("Is Assets > Liabilities? " + isAssetsGreater);
         System.out.println("Is Liabilities < Assets? " + isLiabilitiesLess);
         System.out.println("Is Equity == 60? " + isEqual);

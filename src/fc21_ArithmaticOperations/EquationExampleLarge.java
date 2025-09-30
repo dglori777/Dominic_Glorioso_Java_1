@@ -7,6 +7,7 @@ public class EquationExampleLarge
         long assets = 200L;
         byte liabilities = 50;
         long equity = assets - liabilities;
+
         System.out.println("Equation: Assets = Liabilities + Equity");
         System.out.println(assets + " = " + liabilities + " + " + equity);
         System.out.println("Addition: " + (assets + liabilities));

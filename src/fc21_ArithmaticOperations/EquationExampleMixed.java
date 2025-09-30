@@ -7,6 +7,7 @@ public class EquationExampleMixed
         double assets = 75.75;
         int liabilities = 25;
         double equity = assets - liabilities;
+
         System.out.println("Equation: Assets = Liabilities + Equity");
         System.out.println(assets + " = " + liabilities + " + " + equity);
         System.out.println("Addition: " + (assets + liabilities));
