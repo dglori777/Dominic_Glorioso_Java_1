@@ -7,10 +7,12 @@ public class Ex14_TargetProfit
         double profit = 50;
         double target = 100;
 
-        if (profit >= target) {
-            System.out.println("Time to sell and take a profit!");
+        if (profit >= target * 2) {
+            System.out.println("Huge success! Profit doubled your target!");
+        } else if (profit >= target && profit > 0) {
+            System.out.println("Small profit, keep pushing!");
         } else {
-            System.out.println("Keep holding the option.");
+            System.out.println("Loss occurred, reconsider your strategy.");
         }
     }
 }

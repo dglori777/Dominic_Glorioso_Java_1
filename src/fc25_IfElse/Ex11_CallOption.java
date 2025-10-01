@@ -9,8 +9,10 @@ public class Ex11_CallOption
 
         if (stockPrice > strikePrice) {
             System.out.println("Call option is profitable!");
+        } else if (stockPrice == strikePrice) {
+            System.out.println("Call option is at the money");
         } else {
-            System.out.println("Call option is not profitable yet.");
+            System.out.println("Call option is out of the money");
         }
     }
 }
